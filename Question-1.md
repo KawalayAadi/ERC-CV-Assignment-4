@@ -29,8 +29,8 @@ with mp_hands.Hands(max_num_hands=3, min_detection_confidence=0.7, min_tracking_
                     frame,
                     hand_landmarks,
                     mp_hands.HAND_CONNECTIONS,
-                    mp_drawing.DrawingSpec(color=(0, 255, 0), thickness=2, circle_radius=2),  # Landmarks
-                    mp_drawing.DrawingSpec(color=(0, 0, 255), thickness=2)  # Connections
+                    mp_drawing.DrawingSpec(color=(0, 255, 0), thickness=2, circle_radius=2),
+                    mp_drawing.DrawingSpec(color=(0, 0, 255), thickness=2)
                 )
 
 
